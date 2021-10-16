@@ -1,0 +1,46 @@
+﻿.accordion .card-header:after {
+    font-family: 'FontAwesome';  
+    content: "\f068";
+    float: right; 
+}
+.accordion .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f067"; 
+}
+ 
+
+.card{
+  background-color: orange;
+}
+.card-body{
+background-color: var(--borravino-oscuro); 
+}
+.accordion .card-body{
+	color: white;
+}
+
+ul{
+	padding-left: 25px;
+}
+
+
+.accordion2 .card-header2:after {
+    font-family: 'FontAwesome';  
+    content: "\f068";
+    float: right; 
+}
+.accordion2 .card-header2.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f067"; 
+}
+ 
+
+.card2{
+  background-color: orange;
+}
+.card-body2{
+background-color: var(--borravino-oscuro); 
+}
+.accordion .card-body2{
+	color: white;
+}

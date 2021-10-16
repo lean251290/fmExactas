@@ -1,0 +1,15 @@
+﻿.secccionadmin {
+	padding-left: 50px;
+}
+
+section ul a {
+	color: rgba(229, 124, 44, 0.7);
+}
+
+section ul a:hover {
+	color: rgba(245, 113, 36, 0.9);
+}
+
+.bienvenido {
+	padding-right: 15px;
+}

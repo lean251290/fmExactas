@@ -1,0 +1,11 @@
+@font-face {
+	font-family: Gaegu-Bold;
+	src:url("../fuentes/Gaegu-Bold.ttf");
+}
+h1  h3  h5  p  {
+	font-family: Gaegu-Bold;
+}
+* {
+	font-family: Gaegu-Bold;
+}
+

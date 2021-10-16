@@ -1,0 +1,113 @@
+﻿:root {
+    --borravino-claro: rgb(76, 0, 28);
+}
+
+:root {
+    --borravino-oscuro: #72032b;
+}
+
+.navbar ul li a {
+  font-size: 20px;
+}
+
+.marca{
+  border-radius: 50%;
+  margin-left: 10px;
+}
+@media only screen and (min-width: 1025px) {
+
+.cuerpo{
+  background-image: url("../inicio.png");
+       background-size: cover;
+       background-position: 10px -100px;
+           background-attachment: fixed;
+           background-size: cover;
+
+}
+}
+   	body {
+				z-index: 0;
+        background: linear-gradient(0deg, #ff8700, #d1ccc8);
+
+        /*background-image: url("../img/seu2.jpeg");
+
+				/*background-image: url("assets/img/seu.jpeg");*/
+				/*background-color: white !important;
+
+	/* Nos aseguramos que la imagen de fondo este centrada vertical y
+    horizontalmente en todo momento */
+  /*background-position: center center;*/
+  /* La imagen de fondo no se repite */
+  background-repeat: no-repeat;
+  /* La imagen de fondo está fija en el viewport, de modo que no se mueva cuando
+     la altura del contenido supere la altura de la imagen. */
+  /*background-attachment: fixed;*/
+  /* La imagen de fondo se reescala cuando se cambia el ancho de ventana
+     del navegador */
+     background-size: cover;
+  /* Fijamos un color de fondo para que se muestre mientras se está
+    cargando la imagen de fondo o si hay problemas para cargarla  */
+    background-attachment: fixed;
+
+}
+
+.gris {
+	background-color: var(--borravino-oscuro);
+
+
+}
+
+.top-nav-collapse{
+		background-color: var(--borravino-claro);
+}
+
+.card-body .miboton {
+	border-color: white !important;
+	background-color: rgba(245, 113, 36, 0.9) !important;
+}
+.botonMio {
+    color: white !important;
+    border-color: white !important;
+    background-color: var(--borravino-claro)!important;
+   }
+.botonMio:hover {
+  background: var(--borravino-oscuro)!important;
+}
+#logo-nav{
+	height: 70px;
+	border-radius: 200px!important;
+}
+.quienessomos{
+  width: auto;
+  height: 360px;
+}
+
+@media only screen and (min-width: 720px) {
+
+.imagen-curso .imagenc {
+  width: 50%;
+  height: 50%;
+}
+
+@media only screen and (min-width: 480px) {
+
+.contenedorinicio .imagenhome {
+  width: 100%;
+  height: 50%;
+  margin-top: 25px;
+}
+
+}
+.imagenhome {
+  width: 100%;
+  height: 20%;
+  margin-top: 25px;
+}
+
+.descripcionMaterias{
+  color: white;
+}
+.contenedorQR #imagenqr{
+  width: 30%;
+  height: auto;
+}
